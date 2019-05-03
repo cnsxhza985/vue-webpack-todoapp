@@ -1,0 +1,25 @@
+{
+  "name": "vue-webpack-todoapp",
+  "version": "1.0.0",
+  "description": "this is a npm vue todo-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnsxhza985/vue-webpack-todoapp.git"
+  },
+  "author": "cnsxhza985",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnsxhza985/vue-webpack-todoapp/issues"
+  },
+  "homepage": "https://github.com/cnsxhza985/vue-webpack-todoapp#readme",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "webpack": "^4.30.0"
+  }
+}
