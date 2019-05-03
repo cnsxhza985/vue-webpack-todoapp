@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style>
-/* #test{
+#test{
     color: red;
-} */
+}
 </style>
