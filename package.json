@@ -4,7 +4,9 @@
   "description": "this is a npm vue todo-demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",  
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,10 @@
     "css-loader": "^2.1.1",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.1"
   }
 }
