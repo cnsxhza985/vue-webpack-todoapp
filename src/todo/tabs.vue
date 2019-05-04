@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     clearAllCompleted() {
-      // this.$emit('clearAllCompleted')
+      this.$emit('clearAllCompleted')
     },
     toggleFilter(state) {
       this.$emit('toggle', state)
