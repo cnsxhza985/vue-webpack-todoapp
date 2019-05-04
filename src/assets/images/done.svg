@@ -1,17 +1,1 @@
-<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
- <g>
-  <title>Layer 1</title>
-  <rect id="svg_1" height="92" width="225" y="145.4375" x="169.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
-  <ellipse stroke="#000" ry="28.5" rx="111.499997" id="svg_2" cy="115.9375" cx="282.999997" stroke-width="1.5" fill="#fff"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="200.4375" x="220.5" stroke-width="0" stroke="#000" fill="#000000">SVG  DONE</text>
-  <ellipse stroke="#000" ry="32.5" rx="110.499999" id="svg_4" cy="272.9375" cx="281.999999" stroke-width="1.5" fill="#fff"/>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>
