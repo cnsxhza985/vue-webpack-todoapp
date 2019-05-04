@@ -9,13 +9,14 @@
         >
         <Item 
             :todo = "todo"
-            v-for = "todo in todos"
+            v-for = "todo in filtedTodos"
             :key="todo.id"
             @del="deleteTodo"
         />
         <Tabs
             :filter="filter"
             :todos="todos"
+            @toggle="toggleFilter"
         />
     </section>
 </template>
@@ -36,6 +37,17 @@ export default {
         Item,
         Tabs,
     },
+    computed:{
+        filtedTodos(){
+            if(this.filter === 'all'){
+                return this.todos
+            }
+
+            const completed = this.filter === 'completed'
+            return this.todos.filter(todo => completed === todo.completed)
+
+        }
+    },
     methods:{
         addTodo(e){
             this.todos.unshift({
@@ -47,6 +59,9 @@ export default {
         },
         deleteTodo(id){
             this.todos.splice(this.todos.findIndex(todo => todo.id === id),1)
+        },
+        toggleFilter(state) {
+        this.filter = state
         }
     }
 }
