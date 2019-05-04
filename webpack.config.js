@@ -44,7 +44,11 @@ const config = {
             }
             // other vue-loader options go here
           }
-        },          
+        }, 
+        {
+          test: /\.jsx$/,
+          loader: 'babel-loader'
+        },         
         {
             test: /\.css$/,
             use: [
@@ -73,6 +77,13 @@ const config = {
             use: [
               'style-loader',
               'css-loader',
+              {
+                loader: "postcss-loader",
+                options:{
+                  sourceMap: true,
+                }
+
+              },
               'stylus-loader'
             ]
           },
